@@ -185,8 +185,8 @@ jobs:
     - name: Install Tox
       run: pip install tox
 
-    - name: Run Tox
-      run: TOXENV=py39-core tox -r
+    # - name: Run Tox
+    #   run: TOXENV=py39-core tox -r
 
     - name: Upload Coverage
       uses: codecov/codecov-action@v1
