@@ -171,7 +171,7 @@ jobs:
         file: ./coverage.xml
 
 
-py39-core:
+  py39-core:
     runs-on: ubuntu-latest
 
     steps:
